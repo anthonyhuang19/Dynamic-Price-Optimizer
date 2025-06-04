@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/304db89c5eb74621be86493ec6340176/artifacts
+end_time: 1748936479102
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 304db89c5eb74621be86493ec6340176
+run_name: thoughtful-shad-954
+run_uuid: 304db89c5eb74621be86493ec6340176
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748936478901
+status: 3
+tags: []
+user_id: anthonyhuang

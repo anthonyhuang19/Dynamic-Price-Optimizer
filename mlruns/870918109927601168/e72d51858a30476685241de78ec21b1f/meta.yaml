@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/e72d51858a30476685241de78ec21b1f/artifacts
+end_time: 1748953068220
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: e72d51858a30476685241de78ec21b1f
+run_name: trusting-bird-126
+run_uuid: e72d51858a30476685241de78ec21b1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748953066768
+status: 3
+tags: []
+user_id: anthonyhuang

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/67f317d69f9842dba8bf524005c9171a/artifacts
+end_time: 1748946019472
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 67f317d69f9842dba8bf524005c9171a
+run_name: charming-calf-265
+run_uuid: 67f317d69f9842dba8bf524005c9171a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748946009034
+status: 3
+tags: []
+user_id: anthonyhuang

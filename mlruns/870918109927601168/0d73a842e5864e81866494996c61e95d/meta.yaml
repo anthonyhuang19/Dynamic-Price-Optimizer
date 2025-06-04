@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/0d73a842e5864e81866494996c61e95d/artifacts
+end_time: 1748936503312
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 0d73a842e5864e81866494996c61e95d
+run_name: bouncy-zebra-65
+run_uuid: 0d73a842e5864e81866494996c61e95d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748936488858
+status: 3
+tags: []
+user_id: anthonyhuang

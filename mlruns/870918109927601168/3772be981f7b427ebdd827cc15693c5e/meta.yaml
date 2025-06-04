@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/3772be981f7b427ebdd827cc15693c5e/artifacts
+end_time: 1748953035408
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 3772be981f7b427ebdd827cc15693c5e
+run_name: ambitious-koi-655
+run_uuid: 3772be981f7b427ebdd827cc15693c5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748953035019
+status: 3
+tags: []
+user_id: anthonyhuang

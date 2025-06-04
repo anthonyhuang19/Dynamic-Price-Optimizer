@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/0dd5d8e8dca54a988c9710df647a5a56/artifacts
+end_time: 1748946008671
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 0dd5d8e8dca54a988c9710df647a5a56
+run_name: delightful-hound-500
+run_uuid: 0dd5d8e8dca54a988c9710df647a5a56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748946008548
+status: 3
+tags: []
+user_id: anthonyhuang

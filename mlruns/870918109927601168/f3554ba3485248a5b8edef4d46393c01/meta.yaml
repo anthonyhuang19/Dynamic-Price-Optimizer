@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/f3554ba3485248a5b8edef4d46393c01/artifacts
+end_time: 1748953066755
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: f3554ba3485248a5b8edef4d46393c01
+run_name: monumental-ape-890
+run_uuid: f3554ba3485248a5b8edef4d46393c01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748953047267
+status: 3
+tags: []
+user_id: anthonyhuang

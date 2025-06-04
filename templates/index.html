@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride Cost Prediction Service</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4285f4;
+            --secondary-color: #34a853;
+            --accent-color: #ea4335;
+            --light-color: #f8f9fa;
+            --dark-color: #202124;
+            --gray-color: #5f6368;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 0;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            font-weight: 500;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background-color: var(--secondary-color);
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: var(--shadow);
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--gray-color);
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus, select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.2);
+        }
+        
+        .submit-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        
+        .submit-btn:hover {
+            background-color: #3367d6;
+            transform: translateY(-2px);
+        }
+        
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+        
+        #result {
+            text-align: center;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        
+        #result p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        
+        #result strong {
+            color: var(--secondary-color);
+        }
+        
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        
+        .feature-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .feature-card {
+            flex: 1 1 300px;
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-card i {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .feature-card h3 {
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @media (max-width: 768px) {
+            header .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav {
+                margin-top: 15px;
+            }
+            
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            h2 {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-taxi"></i> Ride Cost Prediction</h1>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#form">Predict Cost</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="features">
+            <h2>Why Use Our Service?</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Instant Estimates</h3>
+                    <p>Get accurate ride cost predictions in seconds with our advanced algorithm.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Data-Driven</h3>
+                    <p>Our predictions are based on real-time market data and historical trends.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-cog"></i>
+                    <h3>Multiple Factors</h3>
+                    <p>We consider all variables that affect ride pricing for the most accurate results.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="form">
+            <h2>Calculate Your Ride Cost</h2>
+            <form method="post" action="/predict/">
+                <div class="form-group">
+                    <label for="Number_of_Riders"><i class="fas fa-users"></i> Number of Riders:</label>
+                    <input type="number" name="Number_of_Riders" min="1" max="1000" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="Number_of_Drivers"><i class="fas fa-car"></i> Number of Drivers:</label>
+                    <input type="number" name="Number_of_Drivers" min="1" max="100" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="Location_Category"><i class="fas fa-map-marker-alt"></i> Location Category:</label>
+                    <select name="Location_Category" required>
+                        <option value="">Select Location Type</option>
+                        <option value="Urban">Urban</option>
+                        <option value="Suburban">Suburban</option>
+                        <option value="Rural">Rural</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="Vehicle_Type"><i class="fas fa-taxi"></i> Vehicle Type:</label>
+                    <select name="Vehicle_Type" required>
+                        <option value="">Select Vehicle Type</option>
+                        <option value="Premium">Premium</option>
+                        <option value="Economy">Economy</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="Time_of_Booking"><i class="far fa-clock"></i> Time of Booking:</label>
+                    <select name="Time_of_Booking" required>
+                        <option value="">Select Time</option>
+                        <option value="Morning">Morning (6AM-12PM)</option>
+                        <option value="Afternoon">Afternoon (12PM-5PM)</option>
+                        <option value="Evening">Evening (5PM-9PM)</option>
+                        <option value="Night">Night (9PM-6AM)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="Expected_Ride_Duration"><i class="fas fa-hourglass-half"></i> Expected Ride Duration (minutes):</label>
+                    <input type="number" name="Expected_Ride_Duration" min="1" max="600" required>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-calculator"></i> Calculate Ride Cost
+                </button>
+            </form>
+        </section>
+
+        {% if prediction %}
+        <section id="result">
+            <h2>Your Ride Estimate</h2>
+            <div style="background-color: #e8f0fe; padding: 20px; border-radius: 8px; margin: 20px 0;">
+                <p style="font-size: 1.5rem; font-weight: bold;">
+                    <i class="fas fa-dollar-sign" style="color: var(--secondary-color);"></i> 
+                    Predicted Ride Cost: <span style="color: var(--secondary-color);">${{ prediction }}</span>
+                </p>
+            </div>
+            <p>This estimate is based on current market conditions and the details you provided.</p>
+            <button class="submit-btn" onclick="window.location.href='#form'">
+                <i class="fas fa-redo"></i> Calculate Another Ride
+            </button>
+        </section>
+        {% endif %}
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ride Cost Prediction Service. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="#" style="color: white; margin: 0 10px;"><i class="fab fa-twitter"></i></a>
+                <a href="#" style="color: white; margin: 0 10px;"><i class="fab fa-facebook"></i></a>
+                <a href="#" style="color: white; margin: 0 10px;"><i class="fab fa-instagram"></i></a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form validation could be added here
+    </script>
+</body>
+</html>

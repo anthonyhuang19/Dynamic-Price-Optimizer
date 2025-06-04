@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/00742840695b488e81a21463f563baa0/artifacts
+end_time: 1748936522912
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 00742840695b488e81a21463f563baa0
+run_name: shivering-perch-853
+run_uuid: 00742840695b488e81a21463f563baa0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748936520692
+status: 3
+tags: []
+user_id: anthonyhuang

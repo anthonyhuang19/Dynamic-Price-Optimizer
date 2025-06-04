@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/ee65fec0b6e448c790ce885219c65ace/artifacts
+end_time: 1748936520680
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: ee65fec0b6e448c790ce885219c65ace
+run_name: selective-perch-638
+run_uuid: ee65fec0b6e448c790ce885219c65ace
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748936504447
+status: 3
+tags: []
+user_id: anthonyhuang

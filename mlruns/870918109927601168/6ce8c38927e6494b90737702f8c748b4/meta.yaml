@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/6ce8c38927e6494b90737702f8c748b4/artifacts
+end_time: 1748862767233
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 6ce8c38927e6494b90737702f8c748b4
+run_name: bemused-trout-16
+run_uuid: 6ce8c38927e6494b90737702f8c748b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748862765717
+status: 3
+tags: []
+user_id: anthonyhuang

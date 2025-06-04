@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/dc43b4a6d2f840bd8c6410fe0696d636/artifacts
+end_time: 1748936479295
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: dc43b4a6d2f840bd8c6410fe0696d636
+run_name: languid-rook-217
+run_uuid: dc43b4a6d2f840bd8c6410fe0696d636
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748936479105
+status: 3
+tags: []
+user_id: anthonyhuang

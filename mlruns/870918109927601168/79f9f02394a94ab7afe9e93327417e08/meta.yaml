@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/79f9f02394a94ab7afe9e93327417e08/artifacts
+end_time: 1748946073594
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 79f9f02394a94ab7afe9e93327417e08
+run_name: able-boar-782
+run_uuid: 79f9f02394a94ab7afe9e93327417e08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748946071094
+status: 3
+tags: []
+user_id: anthonyhuang

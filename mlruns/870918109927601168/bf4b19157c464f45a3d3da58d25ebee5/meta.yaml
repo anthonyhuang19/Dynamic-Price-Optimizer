@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/bf4b19157c464f45a3d3da58d25ebee5/artifacts
+end_time: 1748862727597
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: bf4b19157c464f45a3d3da58d25ebee5
+run_name: amazing-elk-264
+run_uuid: bf4b19157c464f45a3d3da58d25ebee5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748862727541
+status: 3
+tags: []
+user_id: anthonyhuang

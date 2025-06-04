@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/2abb6694cf084f8cad6bfbba3b41419f/artifacts
+end_time: 1748953047262
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 2abb6694cf084f8cad6bfbba3b41419f
+run_name: fearless-auk-206
+run_uuid: 2abb6694cf084f8cad6bfbba3b41419f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748953044545
+status: 3
+tags: []
+user_id: anthonyhuang

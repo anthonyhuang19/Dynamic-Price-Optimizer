@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/74df0a7efed14c9e95f2d9b202f63298/artifacts
+end_time: 1748953096440
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 74df0a7efed14c9e95f2d9b202f63298
+run_name: mysterious-moth-545
+run_uuid: 74df0a7efed14c9e95f2d9b202f63298
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748953094462
+status: 3
+tags: []
+user_id: anthonyhuang

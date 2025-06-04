@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/fcd890cfb2a84cefa8f3a4a238b85131/artifacts
+end_time: 1748936486431
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: fcd890cfb2a84cefa8f3a4a238b85131
+run_name: adaptable-dove-565
+run_uuid: fcd890cfb2a84cefa8f3a4a238b85131
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748936479300
+status: 3
+tags: []
+user_id: anthonyhuang

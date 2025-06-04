@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/5bd209396d2e4131b861db1a04223dde/artifacts
+end_time: 1748953094426
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 5bd209396d2e4131b861db1a04223dde
+run_name: bouncy-seal-406
+run_uuid: 5bd209396d2e4131b861db1a04223dde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748953068225
+status: 3
+tags: []
+user_id: anthonyhuang

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/91bd5e89cebc493997b424a3b81ae814/artifacts
+end_time: 1748862749628
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 91bd5e89cebc493997b424a3b81ae814
+run_name: fun-flea-448
+run_uuid: 91bd5e89cebc493997b424a3b81ae814
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748862748570
+status: 3
+tags: []
+user_id: anthonyhuang

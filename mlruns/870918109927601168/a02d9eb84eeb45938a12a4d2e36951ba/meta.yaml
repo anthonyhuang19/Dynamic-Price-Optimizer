@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/a02d9eb84eeb45938a12a4d2e36951ba/artifacts
+end_time: 1748946047778
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: a02d9eb84eeb45938a12a4d2e36951ba
+run_name: learned-lark-46
+run_uuid: a02d9eb84eeb45938a12a4d2e36951ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748946046459
+status: 3
+tags: []
+user_id: anthonyhuang

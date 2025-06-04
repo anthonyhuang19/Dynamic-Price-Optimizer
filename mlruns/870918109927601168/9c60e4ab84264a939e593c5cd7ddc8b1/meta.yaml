@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/9c60e4ab84264a939e593c5cd7ddc8b1/artifacts
+end_time: 1748862727900
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 9c60e4ab84264a939e593c5cd7ddc8b1
+run_name: unique-bird-528
+run_uuid: 9c60e4ab84264a939e593c5cd7ddc8b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748862727730
+status: 3
+tags: []
+user_id: anthonyhuang

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/53a7858022ea489cb83ac95773506bca/artifacts
+end_time: 1748953036606
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 53a7858022ea489cb83ac95773506bca
+run_name: adaptable-robin-23
+run_uuid: 53a7858022ea489cb83ac95773506bca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748953036020
+status: 3
+tags: []
+user_id: anthonyhuang

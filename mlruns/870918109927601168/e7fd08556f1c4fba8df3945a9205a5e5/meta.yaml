@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/e7fd08556f1c4fba8df3945a9205a5e5/artifacts
+end_time: 1748862735100
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: e7fd08556f1c4fba8df3945a9205a5e5
+run_name: monumental-horse-172
+run_uuid: e7fd08556f1c4fba8df3945a9205a5e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748862733674
+status: 3
+tags: []
+user_id: anthonyhuang

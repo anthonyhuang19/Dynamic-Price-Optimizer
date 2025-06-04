@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/94fa3fd62f954acf9aa7665c1d995a04/artifacts
+end_time: 1748953037041
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 94fa3fd62f954acf9aa7665c1d995a04
+run_name: luminous-wren-579
+run_uuid: 94fa3fd62f954acf9aa7665c1d995a04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748953036642
+status: 3
+tags: []
+user_id: anthonyhuang

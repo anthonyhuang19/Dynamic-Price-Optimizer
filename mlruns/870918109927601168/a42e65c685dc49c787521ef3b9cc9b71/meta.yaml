@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/a42e65c685dc49c787521ef3b9cc9b71/artifacts
+end_time: 1748946009023
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: a42e65c685dc49c787521ef3b9cc9b71
+run_name: orderly-hare-349
+run_uuid: a42e65c685dc49c787521ef3b9cc9b71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748946008810
+status: 3
+tags: []
+user_id: anthonyhuang

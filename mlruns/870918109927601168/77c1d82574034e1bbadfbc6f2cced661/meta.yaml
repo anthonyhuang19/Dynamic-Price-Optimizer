@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/77c1d82574034e1bbadfbc6f2cced661/artifacts
+end_time: 1748862728136
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 77c1d82574034e1bbadfbc6f2cced661
+run_name: unequaled-crane-688
+run_uuid: 77c1d82574034e1bbadfbc6f2cced661
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748862727906
+status: 3
+tags: []
+user_id: anthonyhuang
