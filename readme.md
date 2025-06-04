@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![MLflow](https://img.shields.io/badge/MLflow-1.30.0-0194E2.svg?logo=mlflow)](https://mlflow.org/)
-## 💻  Model
+## 💻  System Design of Dynamic Pricing
 <div align="center">
   <img src="data/diagram.png" width="100%">
 </div>
