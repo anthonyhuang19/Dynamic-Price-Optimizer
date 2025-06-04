@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/dcf3ba1f35a341609e00371d0f8e290d/artifacts
+end_time: 1749049758980
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: dcf3ba1f35a341609e00371d0f8e290d
+run_name: salty-whale-645
+run_uuid: dcf3ba1f35a341609e00371d0f8e290d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749049758882
+status: 3
+tags: []
+user_id: anthonyhuang

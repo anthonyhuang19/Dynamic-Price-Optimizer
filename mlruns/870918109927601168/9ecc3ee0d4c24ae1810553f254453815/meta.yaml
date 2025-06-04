@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/9ecc3ee0d4c24ae1810553f254453815/artifacts
+end_time: 1749049783338
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 9ecc3ee0d4c24ae1810553f254453815
+run_name: overjoyed-mink-154
+run_uuid: 9ecc3ee0d4c24ae1810553f254453815
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749049769089
+status: 3
+tags: []
+user_id: anthonyhuang

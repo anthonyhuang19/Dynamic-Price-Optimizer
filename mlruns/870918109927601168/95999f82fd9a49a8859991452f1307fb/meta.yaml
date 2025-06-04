@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/95999f82fd9a49a8859991452f1307fb/artifacts
+end_time: 1749049759138
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 95999f82fd9a49a8859991452f1307fb
+run_name: valuable-bass-362
+run_uuid: 95999f82fd9a49a8859991452f1307fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749049758996
+status: 3
+tags: []
+user_id: anthonyhuang

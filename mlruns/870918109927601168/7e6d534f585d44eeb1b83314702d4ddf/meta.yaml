@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/7e6d534f585d44eeb1b83314702d4ddf/artifacts
+end_time: 1749049784418
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 7e6d534f585d44eeb1b83314702d4ddf
+run_name: enthused-mole-480
+run_uuid: 7e6d534f585d44eeb1b83314702d4ddf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749049783341
+status: 4
+tags: []
+user_id: anthonyhuang

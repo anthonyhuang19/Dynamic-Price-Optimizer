@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/16ae573f788e451f9618fb0e8b21df17/artifacts
+end_time: 1749049769084
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 16ae573f788e451f9618fb0e8b21df17
+run_name: amusing-kit-182
+run_uuid: 16ae573f788e451f9618fb0e8b21df17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749049765925
+status: 3
+tags: []
+user_id: anthonyhuang

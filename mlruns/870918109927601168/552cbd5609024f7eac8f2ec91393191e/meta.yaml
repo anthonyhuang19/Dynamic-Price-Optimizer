@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/552cbd5609024f7eac8f2ec91393191e/artifacts
+end_time: 1749049759605
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 552cbd5609024f7eac8f2ec91393191e
+run_name: sincere-finch-479
+run_uuid: 552cbd5609024f7eac8f2ec91393191e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749049759439
+status: 3
+tags: []
+user_id: anthonyhuang

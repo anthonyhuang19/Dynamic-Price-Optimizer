@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anthonyhuang/Desktop/project/mlruns/870918109927601168/2f955bbda7af40efb6321e018dcc1c01/artifacts
+end_time: 1749049759434
+entry_point_name: ''
+experiment_id: '870918109927601168'
+lifecycle_stage: active
+run_id: 2f955bbda7af40efb6321e018dcc1c01
+run_name: sedate-squid-530
+run_uuid: 2f955bbda7af40efb6321e018dcc1c01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749049759141
+status: 3
+tags: []
+user_id: anthonyhuang
